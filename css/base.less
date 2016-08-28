@@ -1,0 +1,70 @@
+@imgbase: '../img';
+@baseblue: #0071c5;
+
+body{
+  font-family: "SimHei","SimSun",Arial,sans-serif;
+  padding-top: 60px;
+}
+.navbar {
+  background-color: @baseblue;
+  border-color: #005ea4;
+  border-bottom: 3px solid rgba(0,80,146,0.75);
+  .dropdown-menu {
+    background-color: @baseblue;
+  }
+  a{
+    color: #fff;
+  }
+}
+.navbar .navbar-brand {
+  width: 64px;
+  height: 42px;
+  padding: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+  background: url('@{imgbase}/hdr-spr.png') no-repeat 0 -512px;
+}
+.navbar-nav li {
+  &.active,&:hover{
+    background-color: #0081d6 !important;
+  }
+  a {
+    color: #fff !important;
+  }
+}
+
+
+.main{
+  color: white;
+  background-color: #0062a8;
+  min-height: 600px;
+}
+
+.footer{
+  padding-bottom: 25px;
+  background-color: #f3f3f3;
+  min-height: 300px;
+}
+.footer li {
+  line-height: 2.4em;
+  a {
+    color: #4B85D1;
+  }
+}
+.half-mask{
+  background-color: rgba(0,0,0,0.7);
+  height: 100%;
+  width: 92.3%;
+  position: absolute;
+  top: 73%;
+  left: 15px;
+  padding: 15px;
+  margin: 0 auto;
+  a{
+    color: #90D6F0;
+  }
+  &:hover{
+    top: 0;
+    transition: top 200ms;
+  }
+}

@@ -1,0 +1,63 @@
+body {
+  font-family: "SimHei", "SimSun", Arial, sans-serif;
+  padding-top: 60px;
+}
+.navbar {
+  background-color: #0071c5;
+  border-color: #005ea4;
+  border-bottom: 3px solid rgba(0, 80, 146, 0.75);
+}
+.navbar .dropdown-menu {
+  background-color: #0071c5;
+}
+.navbar a {
+  color: #fff;
+}
+.navbar .navbar-brand {
+  width: 64px;
+  height: 42px;
+  padding: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+  background: url('../img/hdr-spr.png') no-repeat 0 -512px;
+}
+.navbar-nav li.active,
+.navbar-nav li:hover {
+  background-color: #0081d6 !important;
+}
+.navbar-nav li a {
+  color: #fff !important;
+}
+.main {
+  color: white;
+  background-color: #0062a8;
+  min-height: 600px;
+}
+.footer {
+  padding-bottom: 25px;
+  background-color: #f3f3f3;
+  min-height: 300px;
+}
+.footer li {
+  line-height: 2.4em;
+}
+.footer li a {
+  color: #4B85D1;
+}
+.half-mask {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 92.3%;
+  position: absolute;
+  top: 73%;
+  left: 15px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.half-mask a {
+  color: #90D6F0;
+}
+.half-mask:hover {
+  top: 0;
+  transition: top 200ms;
+}
